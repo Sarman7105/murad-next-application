@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import tailwindAnimatePlugin from "tailwindcss-animate";
 
 export default {
   darkMode: ["class"],
@@ -8,11 +9,19 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      "2xl": { max: "1535px" }, // => @media (max-width: 1535px) { ... }
+      xl: { max: "1279px" }, // => @media (max-width: 1279px) { ... }
+      lg: { max: "1023px" }, // => @media (max-width: 1023px) { ... }
+      md: { max: "767px" }, // => @media (max-width: 767px) { ... }
+      sm: { max: "639px" }, // => @media (max-width: 639px) { ... }
+      xs: { max: "500px" },
+    },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        "cutom-black": "rgb(34,34,35)",
+        "custom-black": "rgb(34,34,35)",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -24,5 +33,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindAnimatePlugin],
 } satisfies Config;

@@ -33,11 +33,11 @@ export default function RootLayout({
           <Navbar />
         </header>
         <main className="bg-white">{children}</main>
-        <footer className="bg-slate-900 py-10 px-16 flex justify-center">
+        <footer className="bg-slate-900 py-10 px-16 sm:px-4 flex justify-center">
           <div className="flex gap-x-1 items-center text-zinc-50">
             <FaRegCopyright size={16} />
             <p className="text-zinc-50 text-center">
-              2024 All rights reserved to melbet official agent.
+              2024 Melbet Agent All Rights Reserved.
             </p>
           </div>
         </footer>

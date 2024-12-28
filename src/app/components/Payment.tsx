@@ -18,14 +18,14 @@ export function Payment() {
   const plugin = useRef(Autoplay({ delay: 4000, stopOnInteraction: true }));
 
   return (
-    <section className="py-10 bg-slate-100">
-      <h3 className="pt-4 text-slate-700 text-3xl text-center">
+    <section className="py-10 sm:py-5 sm:px-4 bg-slate-100">
+      <h3 className="pt-4 text-slate-700 text-3xl sm:text-xl text-center">
         Experience seamless and secure transactions with us.
       </h3>
-      <h4 className="mt-4 text-slate-500 text-2xl font-bold text-center">
+      <h4 className="mt-4 sm:mt-2 text-slate-500 text-2xl sm:text-base font-bold text-center">
         We Accept
       </h4>
-      <div className="mt-10 flex justify-center">
+      <div className="mt-10 sm:mt-6 flex justify-center">
         <Carousel
           opts={{
             align: "start",
@@ -34,7 +34,7 @@ export function Payment() {
           plugins={[plugin.current]}
         >
           <CarouselContent>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/4">
+            <CarouselItem className="md:basis-1/2 basis-1/4">
               <Image
                 src={bakash}
                 alt="trusted melbet agent"
@@ -43,7 +43,7 @@ export function Payment() {
                 className="object-cover rounded-2xl" // Ensure the image scales properly
               />
             </CarouselItem>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/4">
+            <CarouselItem className="md:basis-1/2 basis-1/4 ">
               <Image
                 src={nogod}
                 alt="trusted melbet agent"
@@ -52,7 +52,7 @@ export function Payment() {
                 className="object-cover rounded-2xl" // Ensure the image scales properly
               />
             </CarouselItem>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/4">
+            <CarouselItem className="md:basis-1/2 basis-1/4 ">
               <Image
                 src={taka}
                 alt="trusted melbet agent"
@@ -61,7 +61,7 @@ export function Payment() {
                 className=" object-cover rounded-2xl" // Ensure the image scales properly
               />
             </CarouselItem>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/4">
+            <CarouselItem className="md:basis-1/2 basis-1/4 ">
               <Image
                 src={rocket}
                 alt="trusted melbet agent"
@@ -70,7 +70,7 @@ export function Payment() {
                 className="object-cover rounded-2xl" // Ensure the image scales properly
               />
             </CarouselItem>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/4">
+            <CarouselItem className="md:basis-1/2 basis-1/4 ">
               <Image
                 src={ductchBangla}
                 alt="trusted melbet agent"
@@ -79,7 +79,7 @@ export function Payment() {
                 className="object-cover rounded-2xl" // Ensure the image scales properly
               />
             </CarouselItem>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/4">
+            <CarouselItem className="md:basis-1/2 basis-1/4 ">
               <Image
                 src={brac}
                 alt="trusted melbet agent"
