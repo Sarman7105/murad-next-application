@@ -24,7 +24,11 @@ export function AgentList() {
             <FaPhoneVolume size={16} className="text-slate-700" />
             <p className="text-xl sm:text-base text-slate-700">+917005083672</p>
           </div>
-          <Link href="https://wa.me/+917005083672">
+          <Link
+            href="https://wa.me/+917005083672"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="mt-2 flex items-center justify-center gap-x-1 text-white bg-green-800 h-10 p-4 rounded">
               <FaWhatsapp />
               <p className="text-xl sm:text-base font-bold">Message</p>
@@ -43,7 +47,11 @@ export function AgentList() {
             <FaPhoneVolume size={16} className="text-slate-700" />
             <p className="text-xl sm:text-base text-slate-700">+919844063028</p>
           </div>
-          <Link href="https://wa.me/+919844063028">
+          <Link
+            href="https://wa.me/+919844063028"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="mt-2 flex items-center justify-center gap-x-1 text-white bg-green-800 h-10 p-4 rounded">
               <FaWhatsapp />
               <p className="text-xl sm:text-base font-bold">Message</p>
@@ -62,7 +70,11 @@ export function AgentList() {
             <FaPhoneVolume size={16} className="text-slate-700" />
             <p className="text-xl sm:text-base text-slate-700">+919507355486</p>
           </div>
-          <Link href="https://wa.me/+919507355486">
+          <Link
+            href="https://wa.me/+919507355486"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="mt-2 flex items-center justify-center gap-x-1 text-white bg-green-800 h-10 p-4 rounded">
               <FaWhatsapp />
               <p className="text-xl sm:text-base font-bold">Message</p>
@@ -82,7 +94,11 @@ export function AgentList() {
               +8801616659680
             </p>
           </div>
-          <Link href="https://wa.me/+8801616659680">
+          <Link
+            href="https://wa.me/+8801616659680"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="mt-2 flex items-center justify-center gap-x-1 text-white bg-green-800 h-10 p-4 rounded">
               <FaWhatsapp />
               <p className="text-xl sm:text-base font-bold">Message</p>

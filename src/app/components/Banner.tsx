@@ -21,9 +21,15 @@ export function Banner() {
           Get $130 on first deposit.
         </p>
         <div className="mt-8 xs:mt-3 flex gap-6 xs:gap-3">
-          <Button className="text-xl font-semibold xs:w-[130px]" size="xl">
-            App Link
-          </Button>
+          <Link
+            href="https://refpakrtsb.top/L?tag=d_3668271m_18645c_&site=3668271&ad=18645"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="text-xl font-semibold xs:w-[130px]" size="xl">
+              App Link
+            </Button>
+          </Link>
           <Link href="https://wa.me/+917005083672">
             <Button
               className="text-xl font-semibold xs:w-[130px]"

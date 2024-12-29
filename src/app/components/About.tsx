@@ -45,10 +45,20 @@ export function About() {
           </p>
           <h3 className="mt-4 text-xl font-semibold">Follow us on</h3>
           <div className="flex mt-2 gap-x-3">
-            <Link href="/" className="text-blue-700 hover:text-blue-700/80">
+            <Link
+              href="https://www.facebook.com/khan.bhai.815014?mibextid=ZbWKwL"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 hover:text-blue-700/80"
+            >
               <FaFacebook size={30} />
             </Link>
-            <Link href="/" className="text-yellow-700 hover:text-yellow-700/80">
+            <Link
+              href="https://t.me/melbet_khan_bhai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-yellow-700 hover:text-yellow-700/80"
+            >
               <FaTelegram size={30} />
             </Link>
           </div>
