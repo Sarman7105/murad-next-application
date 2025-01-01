@@ -22,7 +22,7 @@ export function Banner() {
         </p>
         <div className="mt-8 xs:mt-3 flex gap-6 xs:gap-3">
           <Link
-            href="https://refpakrtsb.top/L?tag=d_3668271m_18645c_&site=3668271&ad=18645"
+            href="https://bit.ly/40ceIJG"
             target="_blank"
             rel="noopener noreferrer"
           >
